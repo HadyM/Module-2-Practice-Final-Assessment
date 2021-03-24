@@ -1,0 +1,52 @@
+.hidden {
+    display: none;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    }
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(0, 0, 0);
+}
+
+header {
+    height: 150px;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    background-color: green;
+    font-family: fantasy;
+}
+
+#banner-pic {
+    height: 100px;
+}
+
+#all-characters {
+    width: 70%;
+    list-style: none;
+    display: flex;
+    overflow-x: scroll;
+    color: white;
+}
+
+#all-characters li {
+    text-align: center;
+}
+
+.photo-img {
+    height: 7em;
+}
+
+#character-comments-section {
+    color: white;
+    margin: 5%;
+    width: 60%;
+    text-align: center;
+}
